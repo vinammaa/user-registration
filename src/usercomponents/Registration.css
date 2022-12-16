@@ -1,0 +1,353 @@
+.PMT {
+    margin: 0px;
+    padding: 0px 55px 55px 55px;
+    /* font-size: 25px; */
+    /* color: black; */
+    /* border-radius: 15px; */
+  }
+  .Heading {
+    margin-top: 5px;
+    text-align: left;
+    word-spacing: 0.5px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  
+  p {
+    padding: 0px;
+    font-size: 17px;
+     color: red; 
+  }
+  
+  h2{
+    border-bottom:2px solid #ced4da;
+    padding-bottom:5px;
+  }
+  h2,
+  h3 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  h1 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #118ab2;
+  }
+  h4,
+  h6,
+  h8 {
+    text-align: left;
+    padding-left: 70px;
+    margin-left:20px;
+    /* background-color: #d5bdaf; */
+    margin-bottom: 5px;
+  }
+  p {
+    border-bottom: 0px;
+    border-color: #ced4da;
+    padding-bottom: 10px;
+  
+    padding-left: 900px;
+  }
+  
+  .fieldname {
+    display: flex;
+    /* font-style: 25px; */
+    justify-content: space-between;
+    align-items: left;
+  
+    color: #0b090a;
+    padding-left: 150px;
+    border-bottom: 5px solid;
+    border-color: #ced4da;
+    background-color: #fdfffc;
+    /* border-bottom: 20px; */
+    border-width: 0.2px;
+    font-size: 21px;
+  }
+  .fieldname:hover {
+    /* background-color: #caf0f8; */
+    background-color: #ccdbdc;
+  }
+  input::placeholder {
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  /* .DOB {
+    display: flex;
+    font-weight: Bold;
+    font-size: solid;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    border: 35px;
+    /* background-color: lightgray; *
+  /*line-height: 10px;
+  } */
+  .mandatory {
+    color: red;
+   
+  }
+  
+  .fieldlabel {
+    padding-left: 0px;
+    text-align: left;
+  }
+  .fieldradio {
+    padding-right: 25px;
+    /* display:flex ;
+  justify-content: start; */
+    float: right;
+  }
+  label.radio1 {
+    margin: 15px 20px 15px 5px;
+    /* margin-left:20px ;
+    margin-right: 5px; */
+  }
+  
+  .fieldinput {
+    float: left;
+  
+    width: 66.5%;
+    padding: 10px;
+    /* margin-top: 0px;
+    margin: 0px; */
+    padding-right: 200px;
+  }
+  
+  .fieldinput input[type="email"] {
+    margin-top: 0px;
+    justify-content: "flex-start";
+    border-color: "gray";
+    padding-left: 35px;
+    border: 1px solid;
+    border-radius: 9px;
+    /* resize: vertical; */
+    float: right;
+  }
+  .fieldinput input[type="password"] {
+    margin-top: 0px;
+    justify-content: "flex-start";
+    border-color: "gray";
+    padding-left: 35px;
+    border: 1px solid;
+    border-radius: 9px;
+    /* resize: vertical; */
+    float: right;
+  }
+  
+  .fieldinput input[type="date"] {
+    justify-content: "flex-start";
+    border-color: "gray";
+    padding-left: 35px;
+    border: 1px solid;
+    border-radius: 9px;
+    resize: vertical;
+    float: right;
+    margin-top: 0px;
+    padding: 4px;
+    width: 45%;
+    margin-top: 0px;
+  }
+  .showpassword {
+    margin-left: 654px;
+}
+  
+  
+  .fieldinput input[type="text"] {
+    display: flex;
+    margin-top: 0px;
+    padding-left: 35px;
+    border-radius: 9px;
+    float: right;
+  }
+  .fieldinput input[type="tel"] {
+    display: flex;
+    margin-top: 0px;
+    padding-left: 35px;
+    border-radius: 9px;
+    float: right;
+  }
+  
+  .checkmark:after {
+    /* content: ""; */
+  
+    position: absolute;
+    display: none;
+  }
+  .Notification {
+    font-size: large;
+  }
+  
+  
+  .textarea {
+    /* padding-left: 120px; */
+    margin: 5px;
+    float: right;
+  }
+  textarea#comments {
+    /* width: 400px;
+   
+    margin-top: 0px;
+    margin-bottom: 0px; */
+    width: 270px;
+    padding-left: 5px;
+    height: 100px;
+  }
+  
+  .navbuttons {
+    /* text-align: center; */
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+  }
+  /* .nextbutton:hover {
+    background-color: #fff;
+    color: #04aa6d;
+  } */
+  .nextbutton {
+    background-color: #04aa6d;
+    color: #ffffff;
+    border-color: #04aa6d;
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 10px;
+  }
+  h2,
+  h3 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .backbutton {
+    background-color: #04aa6d;
+    color: #ffffff;
+    border-color: #04aa6d;
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 10px;
+  }
+  
+  .savebutton{
+    background-color: #04aa6d;
+    color: #ffffff;
+    border-color: #04aa6d;
+    border-radius: 10px;
+    height: 50px;
+    padding-left: 10px;
+  
+  
+  
+  }
+  
+  .nextbtncontainer {
+    padding-right: 100px;
+    float: right;
+  }
+  
+  
+  @media screen and (max-width: 959px) {
+    .PMT {
+      margin: 0px;
+      padding: 0px 30px 30px 30px;
+    }
+  
+    h1 {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      margin-top: 5px;
+      font-size: 25px;
+      font-weight: 500;
+      color: #118ab2;
+    }
+  
+    .Heading {
+      margin-top: 5px;
+      text-align: left;
+      word-spacing: 0.5px;
+      padding-bottom: 10px;
+      font-size: 16px;
+      font-weight: 400;
+      /* color:red; */
+    }
+  
+    .fieldname {
+      /* display: flex; */
+  
+      /* justify-content: space-between; */
+      /* align-items: center; */
+      flex-direction: column;
+      color: #0b090a;
+      padding-left: 0px;
+      border-bottom: 5px solid;
+      border-color: #ced4da;
+      background-color: #fdfffc;
+      /* border-bottom: 20px; */
+      /* font-style: 25px; */
+      border-width: 0.2px;
+      font-size: 21px;
+      margin-top: 5px;
+    }
+  
+    .fieldlabel {
+      padding-right: 150px;
+      font-size: 25px;
+      /* text-align:right ; */
+    }
+    .fieldinput input[type="text"] {
+      display: flex;
+      margin-top: 0px;
+      padding: 5px;
+      border-radius: 9px;
+      /* float: right; */
+    }
+    .fieldinput {
+      float: left;
+  
+      width: 75%;
+      padding: 10px;
+      margin-top: 30px;
+      margin: 0px;
+      padding-right: 0px;
+    }
+    .fieldinput input[type="email"] {
+      margin-top: 0px;
+      justify-content: "flex-start";
+      border-color: "gray";
+      padding-left: 35px;
+      /* border: 1px solid; */
+      border-radius: 9px;
+      /* resize: vertical; */
+      float: right;
+      width: 106%;
+    }
+  }
+  
